@@ -1,0 +1,46 @@
+{
+  "name": "TickReplay",
+  "short_name": "TickReplay",
+  "description": "NinjaTrader Tick Backtester — replay + session boxes + VWAP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0e",
+  "theme_color": "#0d0d0e",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Download Data",
+      "url": "/#download",
+      "description": "Download Binance/cTrader ticks"
+    },
+    {
+      "name": "Replay",
+      "url": "/#replay",
+      "description": "Start replay"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}

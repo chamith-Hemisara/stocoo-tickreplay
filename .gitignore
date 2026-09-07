@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+venv/
+.venv/
+env/
+
+# Large Market Data and Databases
+*.db
+*.sqlite
+*.sqlite3
+*.Last.txt
+*.Bid.txt
+*.Ask.txt
+*.csv
+*.zip
+data/
+output/
+cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
